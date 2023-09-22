@@ -1,0 +1,14 @@
+{
+  "name": "Node.js & MySQL Dev Container",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    // You can specify VS Code extensions you want to be installed, for example:
+    "dbaeumer.vscode-eslint"
+  ],
+  "forwardPorts": [3306]
+}
